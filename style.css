@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+        /* PREMIERE BARRE DE NAVIGAT */
+
+.haut{
+    background-color: #ffbe9f;
+    padding: 15px;
+    text-align: center;
+}
+.haut > b{
+    color: #525151;
+}
+        /* FIN PREMIERE BARRE  */
+
+        /* DEBUT DEUXIEME BARRE  */
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.gauche{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.gauche > b{
+    color: #a53726;
+}
+.milieu > img{
+    width: 130px;
+}
+.droite{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.droite > i{
+    font-size: 20px;
+    color: #a53726;
+}
+.autre{
+    display: flex;
+    flex-direction: row;
+    color: #a53726;
+    /* gap: 20px; */
+}
+        /* FIN DEUXIEME BARRE  */
+
+        /* DEBUT PREMIERE SECTION  */
+
+.sect1{
+    background-image: url(/images/PRANA_BANNIERE.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.shop{
+    background-color: #525151;
+    color: #fff;
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 15rem;
+}
+.chevron{
+    font-size: 20px;
+    color: #a53726;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: -80px;
+    box-shadow: 2px 4px 5px #fff;
+}
+        /* FIN PREMIERE SECTION  */
+
+        /* DEBUT DEUXIEME SECTION  */
+
+.sect2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a53726;
+    height: 150px;
+    font-size: 25px;
+}
+        /* FIN DEUXIEME SECTION  */
+
+        /* DEBUT TROISIEME SECTION  */
+
+.sect3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.produits{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.prod1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.prod1 > img{
+    width: 250px;
+    height: 250px;
+}
+.prod1 > b{
+    color: #525151;
+    font-size: 18px;
+    text-align: center;
+}
+.prod1:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.prod2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.prod2 > img{
+    width: 250px;
+    height: 250px;
+}
+.prod2 > b{
+    color: #525151;
+    font-size: 18px;
+    text-align: center;
+}
+.prod2:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.prod3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.prod3 > img{
+    width: 250px;
+    height: 250px;
+}
+.prod3 > b{
+    color: #525151;
+    font-size: 18px;
+    text-align: center;
+}
+.prod3:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.prod4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.prod4 > img{
+    width: 250px;
+    height: 250px;
+}
+.prod4 > b{
+    color: #525151;
+    font-size: 18px;
+    text-align: center;
+}
+.prod4:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+        /* FIN TROISIEME SECTION  */
+
+        /* DEBUT QUATRIEME SECTION  */
+
+.sect4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.view{
+    background-color: #525151;
+    color: #fff;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
